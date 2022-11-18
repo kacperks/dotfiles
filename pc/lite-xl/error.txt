@@ -1,0 +1,21 @@
+Error: /usr/local/share/lite-xl/plugins/lite-xl-terminal/init.lua:337: attempt to index local 'str' (a nil value)
+stack traceback:
+	/usr/local/share/lite-xl/plugins/lite-xl-terminal/init.lua:337: in function 'sanitise'
+	/usr/local/share/lite-xl/plugins/lite-xl-terminal/init.lua:432: in function 'display_string'
+	/usr/local/share/lite-xl/plugins/lite-xl-terminal/init.lua:358: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:516: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:523: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:524: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:523: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:524: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:524: in function 'update'
+	/usr/local/share/lite-xl/core/rootview.lua:1082: in function 'update'
+	/usr/local/share/lite-xl/plugins/autocomplete.lua:410: in function 'root_view_update'
+	/usr/local/share/lite-xl/plugins/treeview.lua:398: in function 'root_view_update'
+	/usr/local/share/lite-xl/plugins/contextmenu.lua:26: in function 'update'
+	/usr/local/share/lite-xl/core/init.lua:1529: in function 'step'
+	/usr/local/share/lite-xl/core/init.lua:1596: in function </usr/local/share/lite-xl/core/init.lua:1592>
+	(...tail calls...)
+	[string "local core..."]:9: in function <[string "local core..."]:2>
+	[C]: in function 'xpcall'
+	[string "local core..."]:2: in main chunk
